@@ -1,0 +1,19 @@
+{
+  "name": "netlife-styleguide",
+  "version": "1.0.0",
+  "description": "Netlife Research styleguide starter",
+  "author": "Fredrik Jensen",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "styleguide": "kss-node --config kss-config.json --template styleguide-template"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fredjens/starter.git"
+  },
+  "dependencies": {
+    "handlebars": "^2.0.0",
+    "kss": "^2.4.0"
+  }
+}
