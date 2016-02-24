@@ -1,5 +1,5 @@
 {
-  "name": "netlife-styleguide",
+  "name": "starter-styleguide",
   "version": "1.0.0",
   "description": "Netlife Research styleguide starter",
   "author": "Fredrik Jensen",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git://github.com/fredjens/starter.git"
   },
-  "dependencies": {
+  "devDependencies": {
     "handlebars": "^2.0.0",
     "kss": "^2.4.0"
   }

@@ -1,5 +1,3 @@
 'use strict';
 
-module.exports = {
-	kss-node: require('kss');
-};
+module.exports = require('kss');
