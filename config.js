@@ -3,7 +3,7 @@ module.exports = {
     destination: 'dist/styleguide/',
     css: [
         '../css/main.min.css',
-        '..css/styleguide.min.css'
+        '../css/styleguide.min.css'
     ],
     homepage: 'index.md',
     placeholder: '{modifier}',
