@@ -4,7 +4,7 @@ module.exports = {
     css: [
         '../css/main.min.css',
         '..css/styleguide.min.css'
-    ]
+    ],
     homepage: 'index.md',
     placeholder: '{modifier}',
     title: 'Styleguide',
