@@ -5,12 +5,9 @@
   "author": "Fredrik Jensen",
   "license": "MIT",
   "main": "index.js",
-  "scripts": {
-    "styleguide": "kss-node --config kss-config.json --template styleguide-template"
-  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/fredjens/starter.git"
+    "url": "git://github.com/netliferesearch/starter-styleguide.git"
   },
   "devDependencies": {
     "handlebars": "^2.0.0",
