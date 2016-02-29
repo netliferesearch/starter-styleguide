@@ -9,7 +9,7 @@
     "type": "git",
     "url": "git://github.com/netliferesearch/starter-styleguide.git"
   },
-  "devDependencies": {
+  "dependencies": {
     "handlebars": "^2.0.0",
     "kss": "^2.4.0"
   }
