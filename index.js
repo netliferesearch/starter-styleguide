@@ -1,7 +1,7 @@
 'use strict';
 
 var kss = require('kss');
-var defaultConfig = require('./config');
+var config = require('./config');
 var callback = function() {};
 
 module.exports = {
