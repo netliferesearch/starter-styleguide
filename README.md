@@ -5,7 +5,7 @@ Netlife Research Metalsmith starter for living stylguides with Knyle Style Sheet
 Install the package:
 `npm i starter-styleguide`
 
-Require and run like this:
+## Require and run like this:
 ```js
 'use strict';
 
@@ -28,12 +28,12 @@ title: 'Styleguide',
 template: __dirname+'/styleguide-template'
 ```
 
-To make your own config:
+## Make your own config:
 ```js
 starterStyleguide.extendConfig({ /* config overrides */ });
 ```
 
-You can also add you own styleguide *template*, copy the folder _styleguide-template_ into your own projcect.
+You can also add you own styleguide **template**, copy the folder _styleguide-template_ into your own projcect.
 
 Example:
 ```js
@@ -52,6 +52,7 @@ starterStyleguide.extendConfig({
 starterStyleguide.runKss();
 ```
 
+## KSS
 Document in your stylesheets with KSS like this:
 ```js
 // A button suitable for giving a star to someone.
