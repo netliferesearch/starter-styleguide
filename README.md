@@ -6,13 +6,54 @@ Install the package:
 `npm i starter-styleguide`
 
 Require and run like this:
-```javascript
-var kss = require('starter-styleguide');
-kss();
+```js
+'use strict';
+
+var starterStyleguide = require('starter-styleguide');
+
+starterStyleguide.runKss();
 ```
 
-Use KSS like this:
-```javascript
+Default config is:
+```js
+source: 'src/scss',
+destination: 'dist/styleguide/',
+css: [
+    '../css/main.min.css',
+    '../css/styleguide.min.css'
+],
+homepage: 'index.md',
+placeholder: '{modifier}',
+title: 'Styleguide',
+template: __dirname+'/styleguide-template'
+```
+
+To make your own config:
+```js
+starterStyleguide.extendConfig({ /* config overrides */ });
+```
+
+You can also add you own styleguide *template*, copy the folder _styleguide-template_ into your own projcect.
+
+Example:
+```js
+'use strict';
+
+var starterStyleguide = require('starter-styleguide');
+
+starterStyleguide.extendConfig({
+    css: [
+        '../css/yourstyles.css',
+        '../css/custom/customstyles.css'
+    ],
+    template: 'your-own-template'
+});
+
+starterStyleguide.runKss();
+```
+
+Document in your stylesheets with KSS like this:
+```js
 // A button suitable for giving a star to someone.
 //
 // :hover             - Subtle hover highlight.
